@@ -27,20 +27,20 @@ p {
   margin: auto;
 }
   /* Container media queries */
-@media only screen and (min-width: 500px) {
+@media only screen and (width: 500px) {
   .container {
     width: 400px;
   }
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (width: 800px) {
   .container {
     min-width: 600px;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (width: 1000px) {
   .container {
     min-width: 800px;
   }
