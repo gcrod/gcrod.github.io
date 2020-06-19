@@ -67,6 +67,8 @@ p {
 
 .logo img{
 	position: absolute;
+	    	filter: contrast(500%);
+    	filter: saturate(300%);
 	top: 35px;
 	left: auto;
 	width: 80px;
@@ -135,11 +137,14 @@ p {
     width: auto;
 }
     .logo img{
+    	filter: contrast(500%);
+    	filter: saturate(300%);
 	position: absolute;
 	top: 35px;
-	left: 100px;
+	left: 215px;
 	width: 80px;
 	height: auto;
 
 }
 }
+
